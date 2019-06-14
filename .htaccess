@@ -49,5 +49,4 @@
 
     # internally rewrite the request to the index.php script
     RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
-    
 </IfModule>
